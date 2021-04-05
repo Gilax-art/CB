@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     border-radius: 4px;
     padding: 16px 60px 16px 26px;
     max-width: 292px;
-    background-image: url('/img/Shape\ white.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/Shape%20white.svg');
     background-repeat: no-repeat;
     background-position: 245px, center;
     transition-duration: 0.4s;
@@ -100,14 +100,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 .button:hover{
     background: #0044AE;
-    background-image: url('/img/Shape\ white.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/Shape%20white.svg');
     background-repeat: no-repeat;
     background-position: 245px, center;
 }
 
 .button:active{
     background: #0044AE;
-    background-image: url('/img/Shape\ white.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/Shape%20white.svg');
     background-repeat: no-repeat;
     background-position: 245px, center;
 }
@@ -176,7 +176,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 .s-1:checked + label:before {
     background: #D5D7E6;
-    background-image: url('/img/selected.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/selected.svg');
     background-repeat: no-repeat;
     background-position: center,center;
     border-radius: 4px;
@@ -312,7 +312,7 @@ form p{
     border-radius: 4px;
     padding: 16px 58px 16px 24px;
     color: #FFFFFF;
-    background-image: url('/img/Shape\ white.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/Shape%20white.svg');
     background-repeat: no-repeat;
     background-position: 96px, center;
     transition-duration: 0.4s;
@@ -320,19 +320,19 @@ form p{
 
 .next_btn.on{
     background: #306ECF;
-    background-image: url('/img/Shape\ white.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/Shape%20white.svg');
     background-repeat: no-repeat;
     background-position: 96px, center;
 }
 .next_btn:hover{
     background: #0044AE;
-    background-image: url('/img/Shape\ white.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/Shape%20white.svg');
     background-repeat: no-repeat;
     background-position: 96px, center;
 }
 .next_btn:active{
     background: #0044AE;
-    background-image: url('/img/Shape\ white.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/Shape%20white.svg');
     background-repeat: no-repeat;
     background-position: 96px, center;
 }
@@ -343,7 +343,7 @@ form p{
     border-radius: 4px;
     padding: 16px 24px 16px 58px;
     color: #306ECF;
-    background-image: url('/img/back\ skyblue.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/back%20skyblue.svg');
     background-repeat: no-repeat;
     background-position: 28px, center;
     transition-duration: 0.4s;
@@ -351,19 +351,19 @@ form p{
 
 .back_btn.on{
     color: #A0A0A0;
-    background-image: url('/img/back\ gray.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/back%20gray.svg');
     background-repeat: no-repeat;
     background-position: 28px, center;
 }
 .back_btn:hover{
     color: #060E55;
-    background-image: url('/img/back\ blue.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/back%20blue.svg');
     background-repeat: no-repeat;
     background-position: 28px, center;
 }
 .back_btn:active{
     color: #060E55;
-    background-image: url('/img/back\ blue.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/back%20blue.svg');
     background-repeat: no-repeat;
     background-position: 28px, center;
 }
@@ -595,7 +595,7 @@ form p{
     right: 80px;
     width: 22px;
     height: 22px;
-    background-image: url('/img/Union.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/Union.svg');
     background-repeat: no-repeat;
     background-position: center,center;
     animation-name: rotate;
@@ -657,7 +657,7 @@ form p{
 }
 
 .acc:checked + label:before {
-    background-image: url('/img/акт.svg');
+    background-image: url('https://raw.githubusercontent.com/Gilax-art/CB/f9e1cf3eb9d3022219df477ed893817a625462b5/img/акт.svg');
     background-repeat: no-repeat;
     background-position: center, center;
 }
