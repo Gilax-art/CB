@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<HTML lang="RU">
+    <head>
+        <title>CB</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <meta http-equiv="Content-type"content="text/html;  charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    </head>
+    <body>
+        <div class="front">
+            <div class="front__contant">
+                <img src="img/Rectangle 1.webp">
+                <div class="info">
+                    <p class="info_title">Обманул Брокер?Не проблема! Узнайте, подходит ли вам процедура чарджбека!</p>
+                    <p class="info_subtitle">Просим вас ответить на перечень вопросов чтобы подобрать для вас самый эффективный алгоритм решения проблемы!</p>
+                    <p class="button">Ответить на вопросы</p>
+                </div>
+            </div>
+            <div class="staps_contant">
+                <div class="staps">
+                    <form id="all" action="send.php" method="POST">
+                        <div class="slide">
+                            <div class="sld">
+                                <div class="stap-1">
+                                    <p class="stap-1_title">В каком направлении Вы потеряли деньги?</p>
+                                    <input class="s-1" type="radio" name="st1" id="c-1">
+                                    <label for="c-1">Брокерская компании</label>
+                                    <input class="s-1" type="radio" name="st1" id="c-2">
+                                    <label for="c-2">Hype-projekt</label>
+                                    <input class="s-1" type="radio" name="st1" id="c-3">
+                                    <label for="c-3">Финансовая пирамида</label>
+                                    <input class="s-1" type="radio" name="st1" id="c-4">
+                                    <label for="c-4">Другое направление</label>
+                                </div>
+                            </div>
+                            <div class="sld">
+                                <div class="stap-2">
+                                    <p class="stap-1_title">Какие сроки?</p>
+                                    <input class="s-1" type="radio" name="st2" id="c-5">
+                                    <label for="c-5">1-6 месяцев</label>
+                                    <input class="s-1" type="radio" name="st2" id="c-6">
+                                    <label for="c-6">6-12 месяцев</label>
+                                    <input class="s-1" type="radio" name="st2" id="c-7">
+                                    <label for="c-7">1-2 года</label>
+                                    <input class="s-1" type="radio" name="st2" id="c-8">
+                                    <label for="c-8">1-2 года</label>
+                                </div>
+                            </div>
+                            <div class="sld">
+                                <div class="stap-3">
+                                    <p class="stap-1_title">Суммы утерянных инвестиций</p>
+                                    <input class="s-1" type="radio" name="st3" id="c-9">
+                                    <label for="c-9">до 100 000 рублей</label>
+                                    <input class="s-1" type="radio" name="st3" id="c-10">
+                                    <label for="c-10">от 100 000 до 150 000</label>
+                                    <input class="s-1" type="radio" name="st3" id="c-11">
+                                    <label for="c-11">от 150 000 до 200 000</label>
+                                    <input class="s-1" type="radio" name="st3" id="c-12">
+                                    <label for="c-12">более 200 000</label>
+                                </div>
+                            </div>
+                            <div class="sld">
+                                <div class="stap-4">
+                                    <p class="stap-1_title">Пытались ли вы как-то вернуть свои деньги?</p>
+                                    <input class="s-1" type="radio" name="st4" id="c-13">
+                                    <label for="c-13">Процедура «chargeback»</label>
+                                    <input class="s-1" type="radio" name="st4" id="c-14">
+                                    <label for="c-14">Юридические компании</label>
+                                    <input class="s-1" type="radio" name="st4" id="c-15">
+                                    <label for="c-15">Обращение в гос.органы</label>
+                                    <input class="s-1" type="radio" name="st4" id="c-16">
+                                    <label for="c-16">Не пытался/лась</label>
+                                </div>
+                            </div>
+                            <div class="sld">
+                                <div class="stap-5">
+                                    <p class="stap-1_title">Как Вы переводили свои деньги на баланс Брокерской компании?</p>
+                                    <input class="s-1" type="radio" name="st5" id="c-17">
+                                    <label for="c-17"><span class="iscl">Через платежную систему в личном кабинете</span></label>
+                                    <input class="s-1" type="radio" name="st5" id="c-18">
+                                    <label for="c-18">Перевод через физическое лицо</label>
+                                    <input class="s-1" type="radio" name="st5" id="c-19">
+                                    <label for="c-19"><span class="iscl">Покупка криптовалюты (обменный пункт, криптобиржа)</span></label>
+                                    <input class="s-1" type="radio" name="st5" id="c-20">
+                                    <label for="c-20">Брокер делал это вместо меня</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="understaps">
+                        <div class="fill">
+                            <p class="back">Готово:<span class="percent">0%</span></p>
+                            <div class="line"><div class="fill_line"><div class="fill_line_anim"></div></div></div>
+                        </div>
+                        <div class="buttons">
+                            <p class="back_btn">Назад</p>
+                            <p class="next_btn">Далее</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="qwe">
+                    <div class="final">
+                        <div class="left_info">
+                            <p class="lititle">Предварительное решение: <span class="liscl">более 87%</span> вероятность положительного решения в вашу сторону</p>
+                            <p class="litext">Просим оставить Ваши контактные данные для связи с менеджером нашей компании.<br>Проанализировав данные которые Вы указали ранее, он предложит несколько вариантов решения проблемы и подберет Юриста который будет наиболее квалифицирован в данном случае!</p>
+                        </div>
+                        <div class="right_form">
+                            <div class="endform">
+                                <input placeholder="Введите свое имя" required pattern="[A-z,А-я]*" minlength="4" maxlength="30" class="end-form" form="all" type="text" name="name" id="name">
+                                <input required pattern="[0-9]*"
+                                minlength="10" maxlength="12" placeholder="Введите свой телефон" class="end-form" form="all" type="tel" name="phone" id="phone">
+                                <button class="end-btn" form="all" type="submit">Жду звонка</button>
+                                <input required class="acc" form="all" type="checkbox" name="accept" id="p1">
+                                <label for="p1">С <a class="alink" href="#">политикой конфиденциальности</a> ознакомлен</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lastframe">
+                        <div class="text">
+                            <p class="lftitle">Спасибо за заявку!</p>
+                            <p class="tlsubtit">Ожидайте звонка нашего оператора с номера:</p>
+                        </div>
+                        <p class="number">+7 (495) 118 39 34</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</HTML>
